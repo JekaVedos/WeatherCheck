@@ -1,4 +1,4 @@
-fetch('http://api.openweathermap.org/data/2.5/weather?q=Slobozhanske&appid=8d9cbe108c3e1421ad10b3b9afc56e2f')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Slobozhanske&appid=8d9cbe108c3e1421ad10b3b9afc56e2f')
    .then(function (resp) { return resp.json() })
    .then(function (data) { 
       console.log(data);
@@ -14,7 +14,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?q=Slobozhanske&appid=8d9cb
 //
 
 
-fetch('http://api.openweathermap.org/data/2.5/weather?q=Dnipro&appid=8d9cbe108c3e1421ad10b3b9afc56e2f')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Dnipro&appid=8d9cbe108c3e1421ad10b3b9afc56e2f')
    .then(function (resp) { return resp.json() })
    .then(function (data) { 
       console.log(data);
@@ -32,7 +32,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?q=Dnipro&appid=8d9cbe108c3
 //
 
 
-fetch('http://api.openweathermap.org/data/2.5/weather?q=Pidhorodne&appid=8d9cbe108c3e1421ad10b3b9afc56e2f')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Pidhorodne&appid=8d9cbe108c3e1421ad10b3b9afc56e2f')
    .then(function (resp) { return resp.json() })
    .then(function (data) { 
       console.log(data);
